@@ -1,21 +1,25 @@
 .table {
-    width: 700px;
+    width: 600px;
     border-collapse: collapse;
+    margin: 10pt;
+    font-family: Arial, sans-serif;
+    color: #464646;
 }
 
-/*TABLE {*/
-/*border-collapse: collapse; !* Убираем двойные линии между ячейками *!*/
-/*width: 700px; !* Ширина таблицы *!*/
-/*}*/
-/*TH {*/
-/*background: #fc0; !* Цвет фона ячейки *!*/
-/*text-align: left; !* Выравнивание по левому краю *!*/
-/*}*/
-/*TD {*/
-/*background: #fff; !* Цвет фона ячеек *!*/
-/*text-align: center; !* Выравнивание по центру *!*/
-/*}*/
-TH, TD {
-    border: 1px solid black; /* Параметры рамки */
-    padding: 4px; /* Поля вокруг текста */
+TD {
+    border: 1px solid #e5e5e5;
+    padding: 12px;
+}
+
+thead td {
+    color: white;
+    background: #3498db;
+    font-weight: 600;
+}
+
+tr:nth-child(2n) {
+}
+
+tr:nth-child(2n+1) {
+    background: #eeeeee;
 }
