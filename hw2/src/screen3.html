@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link href="normalize.css" rel="stylesheet">
+    <link href="external1.css" rel="stylesheet">
+</head>
+<body>
+<form>
+    <div>
+        <div>
+            <h4><label for="clientName"><strong>Ваше имя<br/></strong></label></h4>
+            <input type="text" id="clientName" maxlength="25" size="40" value="Ваше имя *"
+                   onfocus="if (value == 'Ваше имя *') {value = ''}" onblur="if (value == '') {value = 'Ваше имя *'}">
+
+        </div>
+
+        <div>
+            <h4><label for="phone"><strong>Ваш номер телефона<br/></strong></label></h4>
+            <input type="text" id="phone" maxlength="25" size="40" placeholder="Ваш номер телефона *">
+        </div>
+
+        <div>
+            <h4><label for="email"><strong>Ваш email или VK<br/></strong></label></h4>
+            <input type="text" id="email" maxlength="25" size="40" placeholder="Ваш email или VK *">
+        </div>
+
+        <div><h4><label for="comment"><strong>Комментарий<br/></strong></label></h4>
+            <textarea id="comment" rows="6" placeholder="Комментарий (не обязательно)"></textarea>
+        </div>
+        <p>Заполните и отправте форму, и мы перезвоним Вам по указанному номеру</p>
+    </div>
+    <div class="button">
+        <button type="submit">Отправить заявку</button>
+    </div>
+</form>
+</body>
+</html>
