@@ -1,0 +1,21 @@
+.table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+/*TABLE {*/
+/*border-collapse: collapse; !* Убираем двойные линии между ячейками *!*/
+/*width: 700px; !* Ширина таблицы *!*/
+/*}*/
+/*TH {*/
+/*background: #fc0; !* Цвет фона ячейки *!*/
+/*text-align: left; !* Выравнивание по левому краю *!*/
+/*}*/
+/*TD {*/
+/*background: #fff; !* Цвет фона ячеек *!*/
+/*text-align: center; !* Выравнивание по центру *!*/
+/*}*/
+TH, TD {
+    border: 1px solid black; /* Параметры рамки */
+    padding: 4px; /* Поля вокруг текста */
+}
