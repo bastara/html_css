@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #feeed6;
+    max-width: 700px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+h1 {
+    text-transform: uppercase; /* Заглавные буквы */
+    font-family: Calibri, serif;
+    font-weight: 500;
+}
+.text{
+    color: #676565;
+    margin-top: 6px;
+    text-align: justify;
+}
+
+.intend{
+    text-indent: 16px;
+}
+
+.strong{
+    color: #378db2;
+}
+
+.decoration{
+    text-decoration: line-through;
+}
