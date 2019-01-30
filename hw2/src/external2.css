@@ -1,5 +1,5 @@
 .clients-table {
-    width: 600px;
+    width: 650px;
     border-collapse: collapse;
     margin: 10px;
     font-family: Arial, sans-serif;
@@ -17,6 +17,7 @@
     font-weight: 600;
     border: 1px solid #e5e5e5;
     padding: 12px;
+    text-align: left;
 }
 
 .clients-table tr:nth-child(2n+1) {

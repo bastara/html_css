@@ -52,10 +52,12 @@ input {
 }
 
 textarea {
-    width: 101%;
+    width: 100%;
     color: #868484;
     border: 0 solid #ccc;
     padding: 5px;
+    /*box-sizing: border-box;*/
+    box-sizing: inherit;
 }
 
 h4 {
